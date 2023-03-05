@@ -1,0 +1,104 @@
+
+  @import url('https://fonts.googleapis.com/css2?family=Lato&family=Tilt+Warp&display=swap');
+
+* {
+    margin:0;
+    padding: 0;
+    box-sizing: border-box;
+    overflow:hidden;
+    font-family: 'Lato', sans-serif;
+font-family: 'Tilt Warp', cursive;
+}
+#title {
+    color: rgb(210, 210, 54);
+}
+
+
+body {
+    font-size: 17px;
+    background-color: black;
+    color: antiquewhite;
+}
+#main {
+    position:absolute;
+    top:50%;
+    left:50%;
+    transform:translate(-50%, -50%);
+    height:100%;
+    width:100%;
+    overflow-y: scroll;
+
+}
+
+details {
+    width: 100%;
+    border:2px solid rgb(105,243,105);
+padding: 5px;
+
+}
+
+details p {
+    padding:20px;
+    color:black;
+    background:white
+}
+
+summary {
+    padding:20px;
+    border:2px solid rgb(34, 34, 210);
+    outline:none;
+    cursor:pointer;
+    display: flex;
+}
+
+section {
+    max-width: 80%;
+    width:100%;
+    border-radius: 2px;
+    margin:25px 0;
+}
+
+a {
+    color:rgb(77, 77, 225);
+    text-decoration: none;
+}
+
+h3 {
+    margin: 13px;
+}
+
+#image {
+    height: 170px;
+   
+}
+
+
+b {
+    color:aqua
+}
+
+figcaption {
+    margin:20px;
+    font-size: 20px;
+    width:55%
+}
+
+#tribute-info {
+    width:100%;
+}
+
+@media screen and (max-width:600px) {
+    #figcaption {
+        width:80%;
+        font-size:35px;
+
+    }
+    #tribute-info {
+        width:100%;
+
+    }
+    #main {
+        margin-top: 0;
+    }
+}
+    
